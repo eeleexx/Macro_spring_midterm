@@ -1,0 +1,96 @@
+\chapter*{Keynesian Cross Model}
+
+The Keynesian Cross Model is a simple framework to analyze the equilibrium in the goods and services market. In this model, actual output \(Y\) is determined by planned expenditure. In a closed economy with no government, the equilibrium condition is given by:
+\[
+Y = C + I,
+\]
+where
+\[
+C = A + cY \quad \text{and} \quad I = \bar{I}.
+\]
+Thus, aggregate (or planned) expenditure (AD) becomes
+\[
+AD = A + cY + \bar{I}.
+\]
+Equilibrium occurs when \(Y = AD\), so that:
+\[
+Y = A + cY + \bar{I} \quad \Longrightarrow \quad Y^* = \frac{A + \bar{I}}{1 - c}.
+\]
+Here, \(\frac{1}{1-c}\) is the multiplier, which shows how a change in autonomous spending leads to a magnified change in equilibrium output.
+
+An alternative expression involves the saving function. Since
+\[
+S = Y - C = Y - (A + cY) = -A + (1-c)Y,
+\]
+the equilibrium condition \(S = I\) reinforces that any change in autonomous spending \(A\) (or \(\bar{I}\)) affects \(Y\) by a factor of \(\frac{1}{1-c}\).
+
+\bigskip
+
+\textbf{Key Formulas for the Keynesian Cross Model:}
+\begin{itemize}
+    \item Consumption Function (no government):
+    \[
+    C = A + cY
+    \]
+    \item Investment (exogenous):
+    \[
+    I = \bar{I}
+    \]
+    \item Aggregate Demand:
+    \[
+    AD = A + cY + \bar{I}
+    \]
+    \item Equilibrium Output:
+    \[
+    Y^* = \frac{A + \bar{I}}{1 - c}
+    \]
+    \item Saving Function:
+    \[
+    S = Y - C = -A + (1-c)Y
+    \]
+    \item \textbf{Multiplier:} \(\dfrac{1}{1-c}\)
+\end{itemize}
+
+\bigskip
+
+\textbf{Diagram of the Keynesian Cross Model}
+
+Below is a typical diagram for the Keynesian Cross. In this diagram, the 45° line (blue) represents the points where actual output \(Y\) equals planned expenditure. The planned expenditure line (red) is given by:
+\[
+\text{Planned Spending} = A + \bar{I} + cY.
+\]
+Equilibrium occurs where the planned spending line intersects the 45° line.
+
+For example, assume:
+\[
+A + \bar{I} = 5 \quad \text{and} \quad c = 0.6.
+\]
+Then the planned spending line is:
+\[
+PS(Y) = 5 + 0.6Y.
+\]
+Equilibrium is determined by:
+\[
+Y = 5 + 0.6Y \quad \Longrightarrow \quad 0.4Y = 5 \quad \Longrightarrow \quad Y^* = 12.5.
+\]
+
+\begin{tikzpicture}[scale=0.3]
+    \draw[->] (0,0) -- (20,0) node[right] {\(Y\)};
+    \draw[->] (0,0) -- (0,20) node[above] {Planned Spending, AD};
+    \draw[thick,blue] (0,0) -- (20,20);
+    \draw[thick,red] (0,5) -- (20,17);
+    \fill (12.5,12.5) circle (7pt);
+    \node[xshift=-0.7cm, yshift=0.25cm] at (12.5,12.5) {\(Y^*=12.5\)};
+  \end{tikzpicture}
+
+\textbf{Interpretation:}
+\begin{itemize}
+    \item The diagram shows that when autonomous spending (i.e., \(A+\bar{I}\)) increases, the planned spending line shifts upward, leading to a higher equilibrium output.
+    \item Conversely, an increase in the marginal propensity to consume \(c\) amplifies the multiplier effect, meaning that any change in autonomous spending produces a larger change in output.
+    \item The \emph{Paradox of Thrift} is illustrated by the saving function: if households decide to save more (i.e., a decrease in \(A\)), equilibrium output falls by a multiple of that change, leaving total saving \(S\) unchanged if investment \(I\) remains exogenous.
+\end{itemize}
+
+\bigskip
+
+\textbf{Additional Discussion:}
+This model is foundational in macroeconomics. Although it makes simplifying assumptions—such as exogenous investment and no government—the Keynesian Cross provides essential insights into the multiplier effect and the dynamics of output determination. As the model is extended to include government and an open economy, the basic principles remain, though the formulas become more complex (e.g., incorporating taxes and imports).
