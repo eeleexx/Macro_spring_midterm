@@ -9,7 +9,7 @@
         \draw[thick,red] (1,1) -- (4,4) node[right] {LM};
         \draw[dotted] (2.5,0) -- (2.5,2.5) -- (0,2.5);
         \draw (2.5,2.5) node[circle,fill,inner sep=1.5pt]{};
-        \node[above right] at (2.5,2.5) {$E$};
+        \node[yshift=0.33cm] at (2.5,2.5) {$E$};
     \end{tikzpicture}
     \caption{A simple IS-LM diagram with an upward-sloping LM curve. 
     The intersection at $E$ represents the equilibrium in both the goods and money markets.}
@@ -68,10 +68,10 @@ Here, \(c\) is the marginal propensity to consume, \(t\) the net tax rate, and \
         \draw[thick,red] (1,1) -- (4,4) node[right] {LM};
         \draw[dotted] (2.5,0) -- (2.5,2.5) -- (0,2.5);
         \draw (2.5,2.5) node[circle,fill,inner sep=1.5pt]{};
-        \node[above right] at (2.5,2.5) {$E_1$};
+        \node[yshift=0.33cm] at (2.5,2.5) {$E_1$};
         \draw[dotted] (2,0) -- (2,2) -- (0,2);
         \draw (2,2) node[circle,fill,inner sep=1.5pt]{};
-        \node[above right] at (2,2) {$E_2$};
+        \node[yshift=0.33cm] at (2,2) {$E_2$};
     \end{tikzpicture}
     \caption{Leftward shift of the IS curve (\(\text{IS}_1 \to \text{IS}_2\)) due to a decrease in autonomous investment. 
     Equilibrium moves from \(E_1\) to \(E_2\), reducing both output (\(Y\)) and the interest rate (\(i\)) in this example.}
@@ -142,18 +142,18 @@ It also crosses at \((5,0)\) on the horizontal axis but now intersects the verti
     \begin{tikzpicture}[scale=1.0]
         \draw[->] (0,0) -- (6,0) node[right] {$Y$ (Output)};
         \draw[->] (0,0) -- (0,6) node[above] {$i$ (Interest Rate)};
-        \draw[thick,blue] (0,5) -- (5,0) node[below right] {$\text{IS}_1$};
+        \draw[thick,blue] (0,5) -- (5,0) node[xshift=0.2cm, yshift=0.3cm] {$\text{IS}_1$};
         \node[left] at (0,5) {$(0,5)$};
         \node[below] at (5,0) {$(5,0)$};
-        \draw[thick,purple] (0,2.5) -- (5,0) node[below right] {$\text{IS}_2$};
+        \draw[thick,purple] (0,2.5) -- (5,0) node[xshift=-0.9cm,yshift=0.2cm] {$\text{IS}_2$};
         \node[left] at (0,2.5) {$(0,2.5)$};
         \draw[thick,red] (0.5,1) -- (4.5,4) node[right] {LM};
         \draw[dotted] (2.5,0) -- (2.5,2.5) -- (0,2.5);
         \draw (2.5,2.5) node[circle,fill,inner sep=1.5pt]{};
-        \node[above right] at (2.5,2.5) {$E_1$};
+        \node[yshift=0.33cm] at (2.5,2.5) {$E_1$};
         \draw[dotted] (1.5,0) -- (1.5,1.75) -- (0,1.75);
         \draw (1.5,1.75) node[circle,fill,inner sep=1.5pt]{};
-        \node[above right] at (1.5,1.75) {$E_2$};
+        \node[yshift=0.33cm] at (1.5,1.75) {$E_2$};
     \end{tikzpicture}
     \caption{Both IS curves intersect at $(5,0)$, but $\text{IS}_2$ has a flatter slope 
     and intersects the vertical axis at $(0,2.5)$. 
