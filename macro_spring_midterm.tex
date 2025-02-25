@@ -1,0 +1,30 @@
+\documentclass[twoside,openany]{book}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{positioning}
+
+\geometry{bindingoffset=0.5in, left=1.25in, right=1.25in, top=1.25in, bottom=1.25in}
+\onehalfspacing
+\raggedbottom
+\titleformat{\chapter}[display]
+    {\normalfont\huge\bfseries}{}{0pt}{\Huge}
+\setlength{\parindent}{15pt}
+\setlength{\parskip}{0pt} 
+\sloppy                     
+
+\begin{document}
+
+\input{Chapters/essential_formulas.tex}
+\input{Chapters/is-lm_model.tex}
+\input{Chapters/ad-as_model.tex}
+\input{Chapters/l1.tex}
+\input{Chapters/l2.tex}
+\input{Chapters/l3.tex}
+\input{Chapters/l4.tex}
+\input{Chapters/l5.tex}
+
+\end{document}

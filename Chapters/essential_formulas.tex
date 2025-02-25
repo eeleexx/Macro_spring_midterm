@@ -1,0 +1,160 @@
+\chapter*{Essential Formulas}
+
+\subsection*{Macroeconomic GDP Formulas}
+\begin{itemize}
+    \item Expenditure Approach:
+    \[ GDP = C + I + G + (X - Z) \]
+    \item Income Approach:
+    \[ GDP = \text{Labor Income} + \text{Capital Income} \]
+    \item Output (Value Added) Approach:
+    \[ GDP = \sum \text{Value Added} \]
+    \item Savings-Investment Identity:
+    \[ Y = C + S \quad \text{and} \quad Y = C + I \quad \Rightarrow \quad S = I \]
+    \item Nominal GDP:
+    \[ \text{Nominal GDP} = \sum (\text{Quantity} \times \text{Current Price}) \]
+    \item Real GDP:
+    \[ \text{Real GDP} = \sum (\text{Quantity} \times \text{Constant Price}) \]
+    \item GDP Deflator:
+    \[ \text{GDP Deflator} = \frac{\text{Nominal GDP}}{\text{Real GDP}} \times 100 \]
+\end{itemize}
+
+\subsection*{Keynesian Cross Model Formulas}
+\begin{itemize}
+    \item \textbf{Consumption Function (No Government):}
+    \[
+    C = A + cY
+    \]
+    where \(A\) is autonomous consumption and \(c\) (with \(0<c<1\)) is the marginal propensity to consume.
+    \item \textbf{Investment (Exogenous):}
+    \[
+    I = \bar{I}
+    \]
+    \item \textbf{Aggregate Demand (AD):}
+    \[
+    AD = A + cY + \bar{I}
+    \]
+    \item \textbf{Equilibrium Output (No Government):}
+    \[
+    Y^* = \frac{A + \bar{I}}{1 - c}
+    \]
+    Here, \(\frac{1}{1-c}\) is the multiplier.
+    \item \textbf{Consumption Function (With Government):}
+    \[
+    C = A + c(1-t)Y
+    \]
+    where \(t\) is the net tax rate.
+    \item \textbf{Equilibrium Output (With Government):}
+    \[
+    Y^* = \frac{A + \bar{I} + G}{1 - c(1-t)}
+    \]
+    \item \textbf{Savings-Investment Identity:}
+    \[
+    S = Y - C = I
+    \]
+    \item \textbf{Balanced Budget Multiplier:} Conceptually, a \$1 increase in government spending financed by an equal increase in taxes leads to an increase in equilibrium output by \$1.
+\end{itemize}
+
+\subsection*{Additional Macroeconomic Formulas (Lecture II.3)}
+\begin{itemize}
+    \item \textbf{Open Economy Equilibrium (with Government):}
+    \[
+    Y^* = \frac{A + \bar{I} + G + \bar{X}}{1 - c(1-t) + z}
+    \]
+    where \(z\) is the marginal propensity to import.
+    \item \textbf{Real Interest Rate (Inflation-Adjusted):}
+    \[
+    r_{\text{real}} \approx r_{\text{nominal}} - \pi
+    \]
+    with \(\pi\) being the inflation rate.
+    \item \textbf{Debt-to-GDP Ratio:}
+    \[
+    \text{Debt-to-GDP Ratio} = \frac{\text{Government Debt}}{Y}
+    \]
+    \item \textbf{Money Multiplier:}
+    \[
+    mm = \frac{1 + cr}{cr + rr + er}
+    \]
+    where \(cr\) is the currency-deposit ratio, \(rr\) the required reserve ratio, and \(er\) the excess reserve ratio.
+    \item \textbf{Deposit Multiplier:}
+    \[
+    \text{Deposit Multiplier} = \frac{1}{rr}
+    \]
+    \item \textbf{Loan Multiplier:}
+    \[
+    \text{Loan Multiplier} = \frac{1 - rr}{rr}
+    \]
+    \item \textbf{Money Market Equilibrium:}
+    \[
+    M_d(Y, r) = M_s
+    \]
+    and real money balances are given by \(\frac{M}{P}\).
+    \item \textbf{Definitions of Money Aggregates:}
+    \[
+    M0 = \text{Currency outside banks}
+    \]
+    \[
+    MB = M0 + \text{Reserves held by banks}
+    \]
+    \[
+    M1 = C + D \quad (\text{with } C=\text{currency},\, D=\text{demand deposits})
+    \]
+\end{itemize}
+
+\subsection*{IS-MP Model Formulas (Lecture II.4)}
+\begin{itemize}
+    \item \textbf{Investment Function:}
+    \[
+    I = I_0 + \text{mpi} \cdot Y - b \cdot i
+    \]
+    where \(I_0 > 0\) is autonomous investment, \(\text{mpi} \in (0,1)\) is the marginal propensity to invest, and \(b > 0\) captures investment’s sensitivity to the interest rate.
+    \item \textbf{Consumption Function:}
+    \[
+    C = A_0 - a \cdot i + c(1-t) \cdot Y
+    \]
+    where \(A_0 > 0\) is autonomous consumption, \(a > 0\) is the sensitivity of consumption to the interest rate, \(c \in (0,1)\) is the marginal propensity to consume, and \(t\) is the net tax rate.
+    \item \textbf{Goods Market Equilibrium:}
+    \[
+    Y = C + I + G + NX
+    \]
+    with \(NX\) representing net exports.
+    \item \textbf{Derived IS Curve:}
+    \[
+    Y\Bigl(1 - c(1-t) - \text{mpi} + z\Bigr) = \Bigl[A_0 + I_0 + G + X\Bigr] - (a+b)i
+    \]
+    where \(z\) is the marginal propensity to import.
+    \item \textbf{Equilibrium Output (IS Relation):}
+    \[
+    Y^* = \frac{A_0 + I_0 + G + X - (a+b)i}{1 - c(1-t) - \text{mpi} + z}
+    \]
+    \item \textbf{Monetary Policy Assumption:} Under fixed prices (GDP deflator \(=1\)), nominal and real interest rates are identical.
+\end{itemize}
+
+\subsection*{AD-AS Model and Taylor Rule (Lecture II.5)}
+\begin{itemize}
+    \item \textbf{Aggregate Demand (AD):}
+    \[
+    AD = C + I + G + (X - Z)
+    \]
+    (Note: In this model, AD is influenced by monetary policy through its effect on consumption and investment.)
+    \item \textbf{Short-Run Aggregate Supply (SRAS):}
+    Due to sticky wages, the SRAS is upward sloping. Firms determine output based on the real wage:
+    \[
+    MPL = \frac{w}{p}
+    \]
+    where \(MPL\) is the marginal product of labor, \(w\) the nominal wage, and \(p\) the price level.
+    \item \textbf{Long-Run Aggregate Supply (LRAS):}
+    With flexible wages and prices, the economy operates at potential output:
+    \[
+    Y = Y^*
+    \]
+    \item \textbf{The Taylor Rule:}
+    The rule for setting the nominal interest rate is given by:
+    \[
+    r - r^* = a(\pi - \pi^*) + b(Y - Y^*)
+    \]
+    or, for nominal rates,
+    \[
+    i - i^* = (1+a)(\pi - \pi^*) + b(Y - Y^*)
+    \]
+    where \(a>0\) and \(b>0\) measure the responsiveness to inflation and the output gap.
+\end{itemize}
